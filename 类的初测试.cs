@@ -16,7 +16,7 @@ namespace ConsoleApplication1
         }
 
         private int BufferLength;
-        public int a
+        public int ShowPort//到底在C#中如何对应C++的流输出符重载还没有搞清楚。这里只是投机取巧一下
         {
             get
             {
@@ -60,15 +60,12 @@ namespace ConsoleApplication1
         {
             return new CSerialPort(lhs.Name + "+++" + rhs.Name, lhs.Speed + rhs.Speed, lhs.BufferLength + rhs.BufferLength);
         }
-
-
-
+        
         ~CSerialPort()
         {
             ComCounts--;
             Console.WriteLine("析构CSerialPort.");
         }
-
     }
 
     class Program
@@ -89,11 +86,11 @@ namespace ConsoleApplication1
             Console.WriteLine("访问静态成员变量：{0}",CSerialPort.GetCom());
             ++portC;
             portC++;//虽然只重载了一个++，但前后++都能使用
-            Console.WriteLine(portC.a);
+            Console.WriteLine(portC.ShowPort);
             Console.WriteLine("以上C-----------------------------------");
             
             CSerialPort portD = new CSerialPort(portB + portC);//在重载加法运算的时候又多构造了一次，这一行构造了两次
-            Console.WriteLine(portD.a);
+            Console.WriteLine(portD.ShowPort);
             Console.WriteLine("以上D-----------------------------------");
             Console.ReadLine();
         }//在此处才会析构，且析构四次（因为一共构造了四次）
