@@ -1,0 +1,8 @@
+C:\Users\Administrator\C++程序设计与实践\DialogueExample\DialogueExample\bin\Debug\DialogueExample.exe
+C:\Users\Administrator\C++程序设计与实践\DialogueExample\DialogueExample\bin\Debug\DialogueExample.pdb
+C:\Users\Administrator\C++程序设计与实践\DialogueExample\DialogueExample\obj\x86\Debug\DialogueExample.DialogForm.resources
+C:\Users\Administrator\C++程序设计与实践\DialogueExample\DialogueExample\obj\x86\Debug\DialogueExample.MainForm.resources
+C:\Users\Administrator\C++程序设计与实践\DialogueExample\DialogueExample\obj\x86\Debug\DialogueExample.Properties.Resources.resources
+C:\Users\Administrator\C++程序设计与实践\DialogueExample\DialogueExample\obj\x86\Debug\DialogueExample.csproj.GenerateResource.Cache
+C:\Users\Administrator\C++程序设计与实践\DialogueExample\DialogueExample\obj\x86\Debug\DialogueExample.exe
+C:\Users\Administrator\C++程序设计与实践\DialogueExample\DialogueExample\obj\x86\Debug\DialogueExample.pdb
